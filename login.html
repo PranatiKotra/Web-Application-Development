@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Login Page</title>
+  <style>
+    button {
+      background-color: #000000;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    form {
+      border: 3px solid #f1f1f1;
+      background: #9191ea;
+    }
+
+    .container {
+      position: absolute;
+      color: white;
+      top: 20%;
+      left: 40%;
+      padding: 14px 20px;
+      border: none;
+      cursor: pointer;
+      background: #9191ea;
+    }
+
+
+
+    .container {
+      color: white;
+    }
+
+    .container input[type="text"] {
+      width: calc(50% - 5px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .container input[type="email"],
+    .container input[type="password"] {
+      width: calc(100% - 5px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .container input[type="checkbox"] {
+      margin-bottom: 10px;
+    }
+
+    .container button[type="submit"] {
+      background: #000000;
+    }
+
+    p {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <div class="container">
+      <h2 align="center">Sign up</h2>
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Second Name"><br>
+      <input type="email" placeholder="Email"><br>
+      <input type="password" placeholder="Password"><br>
+      <input type="password" placeholder="Confirm Password"><br><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> I accept the Terms of Use & Privacy Policy<br><br>
+      </label>
+      <div>
+        <button type="submit">Sign Up</button>
+      </div>
+      <p> Already have an account?<a href="#">Login here</a></p>
+    </div>
+  </form>
+</body>
+
+</html>
